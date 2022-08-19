@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Tab, Tweets, Tweet } from './styles'
-
+import { Container, Tab, Tweets} from './styles'
+import Tweet from '../Tweet'
 const Feed: React.FC = () => {
     return (
         <Container>

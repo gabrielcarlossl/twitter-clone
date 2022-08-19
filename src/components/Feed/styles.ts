@@ -26,7 +26,5 @@ export const Tab = styled.div`
 export const Tweets = styled.div`
     display: flex;
     flex-direction: column;
-`
-export const Tweet = styled.div`
-
+    flex-shrink: 0;
 `
