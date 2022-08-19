@@ -20,7 +20,8 @@ const Tweet: React.FC = () =>{
     return (
         <Container>
             <Retweeted>
-                Você retweetou
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+                <span className="glyphicon glyphicon-retweet"></span> Você retweetou
             </Retweeted>
             <Body>
                 <Avatar/>

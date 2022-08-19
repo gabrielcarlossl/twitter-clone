@@ -15,6 +15,7 @@ export const Avatar = styled.div`
 export const Content = styled.div`
 `
 export const Header = styled.div`
+    
 `
 export const Description = styled.div`
 `
@@ -31,4 +32,6 @@ export const RetweettIcon = styled.div`
 export const LikeIcon = styled.div`
 `
 export const Retweeted = styled.div`
+
+
 `
