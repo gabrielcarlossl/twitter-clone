@@ -6,6 +6,7 @@ import {
     Avatar,
     Content,
     Header,
+    Dot,
     Description,
     ImageContent,
     Icons, 
@@ -24,12 +25,12 @@ const Tweet: React.FC = () =>{
                 <span className="glyphicon glyphicon-retweet"></span> Você retweetou
             </Retweeted>
             <Body>
-                <Avatar/>
+                <Avatar></Avatar>
                 <Content>
                     <Header>
                         <strong>Gabriel Carlos</strong>
                         <span>@gabrielcarlossl</span>
-                        {/* <Dot></Dot> */}
+                        <Dot></Dot>
                         <time>7 de out</time>
                     </Header>
                     <Description>
