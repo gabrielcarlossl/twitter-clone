@@ -22,7 +22,7 @@ const ProfilePage: React.FC = () =>{
                 
                 <h2>@7ennox</h2>
                 
-                <p>Desenvolvedor Front End</p>
+                <p>Desenvolvedor Front End <a href="https://fractaltecnologia.com.br/" target="_blank">@Fractal</a></p>
 
                 <ul>
                     <li><LocationIcon></LocationIcon> João Pessoa, Brasil</li>

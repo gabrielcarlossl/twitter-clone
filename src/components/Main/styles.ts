@@ -80,6 +80,7 @@ export const BottomMenu = styled.div`
     justify-content: space-between;
     padding: 8px min(46px, max(10vw, 10px));
 
+    //A barra só vai aparecer em baixo a partir de 500px
     @media(min-width: 500px){
         display: none;
     }
