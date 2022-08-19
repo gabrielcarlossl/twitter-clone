@@ -10,7 +10,7 @@ export const Container  = styled.div`
     max-height:100%;
     overflow-y: auto;
 
-    scrollbar-width:none; /**Firefox */
+    scrollbar-width:none; /* Firefox */
     ::-webkit-scrollbar{
         display:none;
     }
@@ -28,15 +28,21 @@ export const Banner = styled.div`
 `
 export const Avatar = styled.div`
 
-    width: max(45px, min(135px, 22vw));
-    height: max(45px, min(135px, 22vw));
+    
 
-    border: 3.75px solid var(--primary);
-    background: var(--gray);
-    border-radius:50%;
-    position: absolute;
-    bottom: max(-60px, -10vw);
-    left: 15px;
+    
+
+    >img {
+        
+        border: 0.75px solid var(--primary);
+        width: max(45px, min(135px, 22vw));
+        height: max(45px, min(135px, 22vw));
+        border-radius:50%;
+        position: absolute;
+        bottom: max(-60px, -10vw);
+        left: 15px;
+    }
+    
 `
 export const ProfileData = styled.div`
 

@@ -9,7 +9,7 @@ const ProfilePage: React.FC = () =>{
             <Banner>
 
                 <Avatar>
-                                
+                    <img src={require('../../assets/lambda.png')} />        
                 </Avatar>
 
             </Banner>
@@ -22,7 +22,7 @@ const ProfilePage: React.FC = () =>{
                 
                 <h2>@7ennox</h2>
                 
-                <p>Estudante</p>
+                <p>Desenvolvedor Front End</p>
 
                 <ul>
                     <li><LocationIcon></LocationIcon> João Pessoa, Brasil</li>
