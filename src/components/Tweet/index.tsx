@@ -25,7 +25,7 @@ const Tweet: React.FC = () =>{
                 <span className="glyphicon glyphicon-retweet"></span> Você retweetou
             </Retweeted>
             <Body>
-                <Avatar></Avatar>
+                <Avatar><img src={require('../../assets/lambda.png')} /></Avatar>
                 <Content>
                     <Header>
                         <strong>Gabriel Carlos</strong>
@@ -36,7 +36,7 @@ const Tweet: React.FC = () =>{
                     <Description>
                         Estudando React com styled components
                     </Description>
-                    <ImageContent></ImageContent>
+                    <ImageContent><img src={require('../../assets/react.png')} /></ImageContent>
                     <Icons>
                         <Status>
                             <CommentIcon></CommentIcon>

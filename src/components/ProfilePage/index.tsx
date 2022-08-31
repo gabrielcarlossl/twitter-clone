@@ -17,7 +17,7 @@ const ProfilePage: React.FC = () =>{
          <Container>
 
             <Banner>
-
+                <img src={require('../../assets/capa.jpg')} />
                 <Avatar>
                     <img src={require('../../assets/lambda.png')} />        
                 </Avatar>

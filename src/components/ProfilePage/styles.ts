@@ -17,22 +17,18 @@ export const Container  = styled.div`
 `
 export const Banner = styled.div`
 
+    > img{
     flex-shrink: 0; //Não permite encolher 
 
     width: 100%;
     height: min(33vw, 199px);
-
-    background: var(--twitter);
+    }
     position: relative;
-
+        
 `
 export const Avatar = styled.div`
 
-    
-
-    
-
-    >img {
+    > img {
         
         border: 0.75px solid var(--primary);
         width: max(45px, min(135px, 22vw));
@@ -46,25 +42,28 @@ export const Avatar = styled.div`
 `
 export const ProfileData = styled.div`
 
-    padding: min(calc(10vw + 7px), 67px ) 16px 0;  
+    padding: min(calc(10vw + 7px), 57px ) 16px 0;  
     display: flex;
     flex-direction: column;
     position: relative;
 
-    >h1{
+    > h1{
         font-weight: bold;
         font-size: 19px;
+        margin-top: 12px;
+        margin-bottom: 1px;
     }
 
-    >h2{
+    > h2{
         font-weight: normal;
         font-size: 15px;
-
+        margin:2px 0 10px 0;
         color: var(--gray);
     }
     > p{
+        
         font-size: 15px;
-        margin-top: 11px;
+        margin-top: 5px;
         >a{
             text-decoration: none;
             color: var(--twitter)
